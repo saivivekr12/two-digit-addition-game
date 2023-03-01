@@ -1,0 +1,41 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding:10px 20px;
+  font-weight:bold;
+  font-size:24px
+}
+
+.container{
+  max-width:700px;
+  margin:0 auto;
+}
+
+.button-container{
+  width:100%;
+  display: flex;
+  gap:10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* //Modal */
+.heading{
+color:#0e95eb;
+font-size: 16px;
+font-weight: 500;
+}
+
+.text{
+font-weight: bold;
+font-size: 22px;
+}
